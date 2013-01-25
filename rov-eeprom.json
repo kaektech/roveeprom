@@ -1,0 +1,83 @@
+{
+"openrovcape.eeprom": {
+    "type":"cape",
+    "header": "aa5533ee",
+    "formatRev": "A0",
+    "boardName": "BeagleBone OpenROV Cape",
+    "version": "01",
+    "manufacturer": "CircuitCo",
+    "partNumber": "BB-BONE-ROV-01",
+    "numPins": 8,
+    "serialNumber": "cc55006",
+    "currentVDD_3V3EXP": 0,
+    "currentVDD_5V": 0,
+    "currentSYS_5V": 0,
+    "DCSupplied": 2000,
+    "mux": {
+        "P8_5": {
+        "used": "used",
+        "direction": "in",
+        "pullup": "pullup",
+        "rx": "enabled",
+        "mode": 7,
+        "function": "gpio1_2"
+        },
+        "P8_6": {
+        "used": "used",
+        "direction": "in",
+        "pullup": "pullup",
+        "rx": "enabled",
+        "mode": 7,
+        "function": "gpio1_3"
+        },
+        "P8_24": {
+        "used": "used",
+        "direction": "in",
+        "pullup": "pullup",
+        "rx": "enabled",
+        "mode": 7,
+        "function": "gpio1_1"
+        },
+        "P8_25": {
+        "used": "used",
+        "direction": "in",
+        "pullup": "pullup",
+        "rx": "enabled",
+        "mode": 7,
+        "function": "gpio1_0"
+        },
+        "P9_11": { 
+        "used": "used",
+        "direction": "in",
+        "pullup": "pulldown",
+        "rx": "enabled",
+        "mode": 6,
+        "function": "uart4_rxd"
+        },
+        "P9_13": { 
+        "used": "used",
+        "direction": "out",
+        "pullup": "pulldown",
+        "rx": "enabled",
+        "mode": 6,
+        "function": "uart4_txd"
+        },
+        "P9_24": { 
+        "used": "used",
+        "direction": "out",
+        "pullup": "pulldown",
+        "rx": "enabled",
+        "mode": 0,
+        "function": "uart1_txd"
+        },
+        "P9_26": { 
+        "used": "used",
+        "direction": "in",
+        "pullup": "pulldown",
+        "rx": "enabled",
+        "mode": 0,
+        "function": "uart1_rxd"
+        }
+      }
+    }
+  }
